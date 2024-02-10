@@ -16,6 +16,7 @@ nav {
     right: 70px;
     background-color: transparent;
     padding: 20px;
+    z-index: 99999;
 }
 
 ul li {
@@ -29,4 +30,230 @@ ul li a {
     color: transparent;
     font-family: 'Mrs Eaves 6';
     font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 86vh;
+}
+
+.top {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    left: 0;
+}
+
+.top img {
+    width: 100%;
+}
+
+.hero-background {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+}
+
+.hero-background img {
+    width: 100%;
+}
+
+.hero-text-background {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 50%;
+    height: 100%;
+}
+
+.hero-text-background img {
+    width: 100%;
+    opacity: 0.2;
+    filter: grayscale(1);
+}
+
+.hero-text {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-family: 'Mina Calligraphy';
+    color: #EFC9BA;
+    font-size: 4rem;
+    height: 2rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.hero-text h4 {
+    font-family: 'Mrs Eaves';
+    color: #EFC9BA;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.hero-text h4 span {
+    font-family: 'Mrs Eaves 1';
+    color: #EFC9BA;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+
+.bottom {
+    position: absolute;
+    left: 0;
+    bottom: -55px;
+    width: 100%;
+    z-index: -1;
+}
+
+.bottom img {
+    width: 100%;
+}
+
+.invitation {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* top: -50px; */
+    /* background-color: aqua; */
+    z-index: -2;
+}
+
+.invitation .invitation-icon {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.invitation img {
+    width: 30%;
+}
+
+
+.invitation-text {
+    width: 70%;
+    text-align: center;
+}
+
+.invitation-text p {
+    font-family: 'Mrs Eaves 6';
+    color: #92806C;
+    font-weight: 500;
+}
+
+.invitation-text span {
+    font-family: 'Mina Calligraphy';
+    color: #7F1414;
+    font-size: 1.5rem;
+}
+
+.footer img {
+    margin: 0;
+}
+
+.footer-nav ul li a {
+    color: #e7d9bd;
+}
+
+.welcome-invitation {
+    background-image: url(../images/background/invitation-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.arival-departure {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.airport-form {
+    text-align: center;
+}
+
+.airport-form p {
+    width: 62%;
+    font-family: 'Mrs Eaves 6';
+    font-style: italic;
+    color: white;
+    font-size: 1.15rem;
+    margin: 20px 0px;
+}
+
+.airport-invitation {
+    height: 20vh;
+}
+
+.arrive-form{
+    text-align: center;
+    
+}
+.arrive-form-3{
+    margin-left: -30px;
+
+}
+.arrive-form p{
+    font-family: 'Mrs Eaves 6';
+    color: white;
+    margin: 0;
+}
+.arrive-form img{
+    opacity: 0.3;
+    width: 300px;
+}
+.arrive-form .name img{
+    width: 400px;
+}
+.arrive-form .submit img{
+    width: 200px;
+}
+.arrive-form input{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 30px;
+    margin-left: 20px;
+    color: white;
+    color-scheme: white;
+    font-family: 'Mrs Eaves 6';
+    z-index: 2;
+}
+.arrive-form input::placeholder{
+    font-family: 'Mrs Eaves 6';
+    color: rgba(255, 255, 255, 0.384);
+}
+.arrive-form input:focus{
+    outline: none;
+}
+.arrive-form button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Mrs Eaves 6';
+    cursor: pointer;
+    z-index: 2;
+}
+.form-center{
+    text-align: center;
+}
+.form-center img{
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
 }

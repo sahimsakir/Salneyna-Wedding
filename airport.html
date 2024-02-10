@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Salneyna Wedding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Welcome</a></li>
+                    <li><a href="airport.html">Airport Transfers</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="">Stay</a></li>
+                    <li><a href="">Explore</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <img src="airport.jpg" alt="">
+
+    <!-- <div class="top">
+            <img src="assets/images/icon/welcome-top.png" alt="">
+        </div>
+        <div class="hero-background">
+            <img src="assets/images/background/airport-background.png" alt="">
+        </div> -->
+    <div class="arival-departure d-flex flex-column justify-content-end align-items-center">
+        <!-- <div class="airport-form d-flex justify-content-center align-items-center">
+                <p>Dear Guest, please type your name here as well as your arrival and departure details.
+
+                    These will help us ensure a seamless experience for you.</p>
+            </div> -->
+        <form id="formData" action="form-action.php" method="post">
+            <div class="row arrive-form d-flex flex-column justify-content-center align-items-center">
+                <div
+                    class="col-md-12 name position-relative top-0 flex-column d-flex justify-content-center align-items-center">
+                    <p>Name</p>
+                    <input type="text" name="name" id="">
+                    <img src="assets/images/background/input-background.png" alt="">
+                </div>
+            </div>
+            <div class="row arrive-form arrive-form-3 d-flex justify-content-center align-items-center">
+                <div
+                    class="col-md-4 position-relative top-0 d-flex flex-column justify-content-center align-items-center">
+                    <p>Arrival Date</p>
+                    <input type="text" name="arrival_date" id="">
+                    <img src="assets/images/background/input-background.png" alt="">
+                </div>
+                <div class="col-md-4  d-flex justify-content-center align-items-center form-center">
+                    <img src="assets/images/icon/form-center.png" alt="">
+                </div>
+                <div
+                    class="col-md-4 position-relative top-0 d-flex flex-column justify-content-center align-items-center">
+                    <p>Departure Date</p>
+                    <input type="text" name="departure_date" id="">
+                    <img src="assets/images/background/input-background.png" alt="">
+                </div>
+            </div>
+            <div class="row arrive-form arrive-form-3 d-flex justify-content-center align-items-center">
+                <div
+                    class="col-md-4 position-relative top-0 d-flex flex-column justify-content-center align-items-center">
+                    <p>Arrival Time & Flight No</p>
+                    <input type="text" name="arrival_time_fligt" id="">
+                    <img src="assets/images/background/input-background.png" alt="">
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center form-center">
+                    <img src="assets/images/icon/form-center.png" alt="">
+                </div>
+                <div
+                    class="col-md-4 position-relative top-0 d-flex flex-column justify-content-center align-items-center">
+                    <p>Departure Time & Flight No</p>
+                    <input type="text" name="departure_time_fligt" id="">
+                    <img src="assets/images/background/input-background.png" alt="">
+                </div>
+            </div>
+            <div class="row m-3 mb-5 arrive-form d-flex flex-column justify-content-center align-items-center">
+                <div class="col-md-12 submit position-relative top-0 d-flex justify-content-center align-items-center">
+                    <button type="submit">Submit</button>
+                    <img src="assets/images/background/submit.png" alt="">
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- <div class="bottom">
+                    <img src="assets/images/icon/welcome-top.png" alt="">
+                </div> -->
+
+    <!-- <section class="invitation airport-invitation d-flex flex-column justify-content-end align-items-center">
+        <div class="footer d-flex justify-content-between align-items-center">
+            <img src="assets/images/icon/sideer.png" alt="">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="/">Welcome</a></li>
+                    <li><a href="">Airport Transfers</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Stay</a></li>
+                    <li><a href="">Explore</a></li>
+                </ul>
+            </nav>
+            <img src="assets/images/icon/sideer.png" alt="">
+        </div>
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.0/xlsx.full.min.js"></script>
+    
+</body>
+
+</html>
