@@ -233,6 +233,17 @@ ul li a {
     font-family: 'Mrs Eaves 6';
     z-index: 2;
 }
+.arrive-form .name input{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 35px;
+    margin-left: -50px;
+    color: white;
+    color-scheme: white;
+    font-family: 'Mrs Eaves 6';
+    z-index: 2;
+}
 .arrive-form input::placeholder{
     font-family: 'Mrs Eaves 6';
     color: rgba(255, 255, 255, 0.384);
